@@ -107,7 +107,7 @@ python train.py
 The model's performance was evaluated using accuracy, cross-validation scores, classification reports, and confusion matrices.
 - **Logistic Regression**
   - Accuracy: 88%
-  - Cross-Validation Accuracy: 0.89%
+  - Cross-Validation Accuracy: 89%
 
 ![image](https://github.com/user-attachments/assets/df9bc066-65ea-44ec-b826-8f7a77d3be5e)
 
