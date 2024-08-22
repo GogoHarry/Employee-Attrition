@@ -25,9 +25,10 @@ test_data_preprocessed.to_csv('test_data_preprocessed_data.csv', index=False)
 # Load the trained model
 model = joblib.load('logistic_model.pkl')
 
-# Make predictions on the unseen test_data
+# Make predictions on the unseen data
 predictions = model.predict(test_data_preprocessed)
-test_data_preprocessed['Predicted_Attrition'] = predictions
+
+test_data['Predicted_Attrition'] = predictions
 
 # Display the DataFrame with predictions
-print(test_data_preprocessed.head())
+print(test_data.head())
